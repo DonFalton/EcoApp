@@ -12,8 +12,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.ImageView;
 
-import com.example.myapp.R;
-
+import com.tfg.ecoapp.R;
 public class HomeFragment extends Fragment {
 
     private TextView dateTextView;

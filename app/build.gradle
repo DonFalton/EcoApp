@@ -6,7 +6,6 @@ plugins {
 }
 
 android {
-    namespace 'com.tfg.ecoapp'
     compileSdk 33
 
     defaultConfig {

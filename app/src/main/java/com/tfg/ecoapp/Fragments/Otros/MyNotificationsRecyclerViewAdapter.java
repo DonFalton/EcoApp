@@ -8,8 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.tfg.ecoapp.Fragments.Otros.placeholder.PlaceholderContent.PlaceholderItem;
-import com.tfg.ecoapp.Fragments.Otros.databinding.FragmentNotificationsBinding;
-
+import com.tfg.ecoapp.R;
 import java.util.List;
 
 /**
@@ -27,8 +26,8 @@ public class MyNotificationsRecyclerViewAdapter extends RecyclerView.Adapter<MyN
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        return new ViewHolder(FragmentNotificationsBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false));
-
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_notifications, parent, false);
+        return new ViewHolder(view);
     }
 
     @Override
@@ -48,10 +47,10 @@ public class MyNotificationsRecyclerViewAdapter extends RecyclerView.Adapter<MyN
         public final TextView mContentView;
         public PlaceholderItem mItem;
 
-        public ViewHolder(FragmentNotificationsBinding binding) {
-            super(binding.getRoot());
-            mIdView = binding.itemNumber;
-            mContentView = binding.content;
+        public ViewHolder(View view) {
+            super(view);
+            mIdView = view.findViewById(R.id.item_number);
+            mContentView = view.findViewById(R.id.content);
         }
 
         @Override

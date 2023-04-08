@@ -1,15 +1,14 @@
 package com.tfg.ecoapp.Fragments.Otros;
 
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.tfg.ecoapp.Fragments.Otros.placeholder.PlaceholderContent.PlaceholderItem;
-import com.tfg.ecoapp.Fragments.Otros.databinding.FragmentHelpBinding;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.tfg.ecoapp.Fragments.Otros.placeholder.PlaceholderContent.PlaceholderItem;
+import com.tfg.ecoapp.R;
 import java.util.List;
 
 /**
@@ -26,9 +25,8 @@ public class MyHelpRecyclerViewAdapter extends RecyclerView.Adapter<MyHelpRecycl
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
-        return new ViewHolder(FragmentHelpBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false));
-
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_help, parent, false);
+        return new ViewHolder(view);
     }
 
     @Override
@@ -48,10 +46,10 @@ public class MyHelpRecyclerViewAdapter extends RecyclerView.Adapter<MyHelpRecycl
         public final TextView mContentView;
         public PlaceholderItem mItem;
 
-        public ViewHolder(FragmentHelpBinding binding) {
-            super(binding.getRoot());
-            mIdView = binding.itemNumber;
-            mContentView = binding.content;
+        public ViewHolder(View view) {
+            super(view);
+            mIdView = view.findViewById(R.id.item_number);
+            mContentView = view.findViewById(R.id.content);
         }
 
         @Override

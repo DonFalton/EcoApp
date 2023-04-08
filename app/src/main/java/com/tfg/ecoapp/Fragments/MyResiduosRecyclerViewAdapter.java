@@ -8,8 +8,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.tfg.ecoapp.Fragments.placeholder.PlaceholderContent.PlaceholderItem;
-import com.tfg.ecoapp.Fragments.databinding.FragmentRecycleBinding;
-
+import com.tfg.ecoapp.R;
 import java.util.List;
 
 /**
@@ -24,11 +23,19 @@ public class MyResiduosRecyclerViewAdapter extends RecyclerView.Adapter<MyResidu
         mValues = items;
     }
 
-    @Override
+    /*Esta metodo usa Databinding, y como aún no sé como se usa,
+lo comento de momento y lo sustituyo por otro metodo que no de error*/
+/*    @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
         return new ViewHolder(FragmentRecycleBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false));
 
+    }*/
+
+    @Override
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.fragment_recycle, parent, false);
+        return new ViewHolder(view);
     }
 
     @Override
@@ -48,10 +55,10 @@ public class MyResiduosRecyclerViewAdapter extends RecyclerView.Adapter<MyResidu
         public final TextView mContentView;
         public PlaceholderItem mItem;
 
-        public ViewHolder(FragmentRecycleBinding binding) {
-            super(binding.getRoot());
-            mIdView = binding.itemNumber;
-            mContentView = binding.content;
+        public ViewHolder(View view) {
+            super(view);
+            mIdView = view.findViewById(R.id.item_number);
+            mContentView = view.findViewById(R.id.content);
         }
 
         @Override

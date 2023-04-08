@@ -12,7 +12,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.tfg.ecoapp.R;
-
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link BaseFragment#newInstance} factory method to

@@ -14,7 +14,6 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.tfg.ecoapp.R;
 import com.tfg.ecoapp.Fragments.placeholder.PlaceholderContent;
 
@@ -57,7 +56,8 @@ public class RecycleFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_recycle_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_recycle, container, false);
+        RecyclerView recyclerView = view.findViewById(R.id.list);
 
         // Set the adapter
         if (view instanceof RecyclerView) {
