@@ -36,23 +36,31 @@ Aquí supongo que habrá que poner algo interesante xD
 						-Contacto: Fragment con formulario de contacto.
 						-Acerca de: Fragment con información sobre la app, el proyecto y los autores.
 
+\
 
+Al iniciar hacer registro (Código Postal, calle, etc) que usaremos como ubicación inicial para en el Fragment de Maps.
 
 La información sensible, como la dirección del usuario, etc, debera guardarse en el dispositivo en un fichero interno.
-¿Al iniciar hacer registro (Código Postal, calle, etc)?
+
+\
+
+**La información sobre los contenedores**, puntos limpios, etc la sacaremos del portal "datos abiertos", del ayuntamiento de Madrid: [link](https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=38ed95bac1ba6610VgnVCM1000001d4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default).
+
+\
 
 La UI implementar Material Design ¿2?¿3?
 
+\
 
 **Best practices in Android development** [link](https://github.com/futurice/android-best-practices/blob/master/README.md).
 
+\
 
 ### Herramientas y software:
 
 1. [x] -Control de versiones y colaboración en el código: **GitHub**, GitLab
-2. [ ] -Comunicación: Slack, Teams, Discord.
+2. [x] -Comunicación: Slack, **Teams**, Discord.
 3. [ ] -Gestión de Proyecto y Seguimiento de tareas: Trello, Asana, Notion.
 4. [ ] -Diseño y Prototipado de UI: Figma, Adobe XD, Invision Studio
 5. [x] -IDE: **Android Studio**.
 6. [x] -Git GUI: GitHub, **GitKraken**, SourceTree
-
