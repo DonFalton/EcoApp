@@ -58,7 +58,7 @@ La UI implementar Material Design ¿2?¿3?
 \
 Estos son mas cortos, pero están en ingles. Parte 1 [link](https://www.youtube.com/watch?v=hMYM-_t_Go4)
 Parte2 [link](https://www.youtube.com/watch?v=-q4uBF-vk4Q)
-\
+
 
 ### Herramientas y software:
 
