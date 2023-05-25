@@ -53,7 +53,10 @@ La UI implementar Material Design ¿2?¿3?
 \
 
 **Best practices in Android development** [link](https://github.com/futurice/android-best-practices/blob/master/README.md).
+**Tutorial de GIT y GitHub desde Android Studio [link](https://www.youtube.com/watch?v=-q4uBF-vk4Q)
 
+Estos son mas cortos, pero están en ingles. Parte 1[link](https://www.youtube.com/watch?v=hMYM-_t_Go4)
+Parte2 [link](https://www.youtube.com/watch?v=-q4uBF-vk4Q)
 \
 
 ### Herramientas y software:
