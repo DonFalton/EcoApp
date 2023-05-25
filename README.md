@@ -58,13 +58,14 @@ La UI implementar Material Design ¿2?¿3?
 \
 Estos son mas cortos, pero están en ingles. Parte 1 [link](https://www.youtube.com/watch?v=hMYM-_t_Go4)
 Parte2 [link](https://www.youtube.com/watch?v=-q4uBF-vk4Q)
-
+\
+**ENLACE AL WORKSPACE DE TRELLO DESDE DONDE SEGUIR LAS TAREAS** [link](https://trello.com/invite/ecolago/ATTI2b941ecfc4ea7ef2dd3b91fe2c841199CE932E1C)
 
 ### Herramientas y software:
 
 1. [x] -Control de versiones y colaboración en el código: **GitHub**, GitLab
 2. [x] -Comunicación: Slack, **Teams**, Discord.
-3. [ ] -Gestión de Proyecto y Seguimiento de tareas: Trello, Asana, Notion.
+3. [x] -Gestión de Proyecto y Seguimiento de tareas: **Trello**, Asana, Notion.
 4. [ ] -Diseño y Prototipado de UI: Figma, Adobe XD, Invision Studio
 5. [x] -IDE: **Android Studio**.
 6. [x] -Git GUI: GitHub, **GitKraken**, SourceTree
