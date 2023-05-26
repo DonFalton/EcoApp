@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Mapas</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="select_container_type">Seleccionar tipo de contenedor</string>
+    <string-array name="container_types">
+        <item>Envases</item>
+        <item>Orgánica</item>
+        <item>Papel-Cartón</item>
+        <item>Resto</item>
+        <item>Vidrio</item>
+    </string-array>
 </resources>
